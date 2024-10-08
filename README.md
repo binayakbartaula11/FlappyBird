@@ -4,6 +4,7 @@ Concept:
 In this game, a bird (represented by a rectangle) tries to fly through a series of pipes without hitting them. 
 The player controls the bird's movement by pressing the spacebar or the up arrow key to make the bird "jump" upward. If the bird hits a pipe or the ground, the game ends. 
 The goal is to pass through as many pipes as possible to increase the score.
+![project1](https://github.com/user-attachments/assets/2ebbf730-8b1d-42cf-a313-1133aef948fb)
 
 Code Explanation:
 
@@ -15,6 +16,7 @@ Rectangle bird: This represents the bird, initialized as a rectangle with positi
 ArrayList<Rectangle> pipes: Stores all the pipes currently visible in the game.
 Game states like ticks, yMotion, score, gameOver, and started manage the game's progress.
 Random rand: Helps generate random heights for pipes.
+
 
 2. Constructor (FlappyBird):
 Creates the game window using JFrame, sets properties like title, size, and visibility.
